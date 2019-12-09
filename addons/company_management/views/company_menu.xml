@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_company_information" name="Company Information Management"/>
+        <menuitem id="menu_company_info" name="Company Information" parent="menu_company_information"
+                  sequence="0"
+                  action="company_info_action"/>
+
+        <menuitem id="menu_settings" name="Setting" parent="menu_company_information" sequence="10"/>
+
+        <menuitem id="menu_contact_info" name="Contact Information" parent="menu_settings" sequence="20" action="company_contact_info_action"/>
+        <menuitem id="menu_level" name="Company Level" parent="menu_settings" sequence="30" action="company_level_action"/>
+        <menuitem id="menu_platform" name="Company Platform" parent="menu_settings" sequence="40" action="company_platform_action"/>
+        <menuitem id="menu_product" name="Product" parent="menu_settings" sequence="50" action="company_product_action"/>
+        <menuitem id="menu_saler" name="Salers" parent="menu_settings" sequence="60" action="company_salers_action"/>
+
+
+    </data>
+</odoo>
+  

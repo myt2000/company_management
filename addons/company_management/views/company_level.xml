@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_company_level_form" model="ir.ui.view">
+            <field name="name">company.level.form</field>
+            <field name="model">company.level</field>
+            <field name="arch" type="xml">
+                <form string="Level">
+                    <group>
+                        <field name="name"/>
+                        <field name="remark" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_company_level_tree" model="ir.ui.view">
+            <field name="name">company.level.tree</field>
+            <field name="model">company.level</field>
+            <field name="arch" type="xml">
+                <tree string="Company Level">
+                        <field name="name"/>
+                        <field name="remark" />
+                </tree>
+            </field>
+        </record>
+
+
+      <record model="ir.actions.act_window" id="company_level_action">
+            <field name="name">Company Level</field>
+            <field name="res_model">company.level</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>
+  

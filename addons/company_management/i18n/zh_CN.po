@@ -1,0 +1,319 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* company_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-09 13:34+0000\n"
+"PO-Revision-Date: 2019-12-09 13:34+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_company_abbreviation
+msgid "Abbreviation"
+msgstr "简称"
+
+#. module: company_management
+#: selection:company.info,status:0
+msgid "Abort"
+msgstr "停用"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_access_date
+msgid "Access Time"
+msgstr "接入时间"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_contact_info_action
+msgid "Company Contact Info"
+msgstr "客户联系信息"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_info_action
+#: model:ir.model.fields,field_description:company_management.field_company_salers_salers_company_info_ids
+#: model:ir.ui.view,arch_db:company_management.view_company_info_form
+#: model:ir.ui.view,arch_db:company_management.view_company_info_tree
+msgid "Company Info"
+msgstr "客户信息"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_company_info
+msgid "Company Information"
+msgstr "客户公司信息"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_company_information
+msgid "Company Information Management"
+msgstr "客户信息管理"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_level_action
+#: model:ir.model.fields,field_description:company_management.field_company_info_company_level_id
+#: model:ir.ui.menu,name:company_management.menu_level
+#: model:ir.ui.view,arch_db:company_management.view_company_level_tree
+msgid "Company Level"
+msgstr "客户等级"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_company_name
+msgid "Company Name"
+msgstr "公司名称"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_platform_action
+#: model:ir.ui.menu,name:company_management.menu_platform
+#: model:ir.ui.view,arch_db:company_management.view_company_platform_tree
+#: model:ir.ui.view,arch_db:company_management.view_company_product_tree
+msgid "Company Platform"
+msgstr "客户应用平台"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_product_action
+msgid "Company Product"
+msgstr "客户使用产品"
+
+#. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_salers_action
+#: model:ir.ui.view,arch_db:company_management.view_company_salers_tree
+msgid "Company Salers"
+msgstr "对应销售人员"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_contact_info
+#: model:ir.ui.view,arch_db:company_management.view_company_contact_info_form
+#: model:ir.ui.view,arch_db:company_management.view_company_contact_info_tree
+#: model:ir.ui.view,arch_db:company_management.view_company_info_form
+msgid "Contact Info"
+msgstr "联系信息"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_contact_info
+msgid "Contact Information"
+msgstr "联系信息"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_name
+msgid "Contact Name"
+msgstr "联系群名称"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_contact_type
+msgid "Contact Type"
+msgstr "联系方式"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_info_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_level_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_platform_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_product_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_salers_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_info_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_level_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_platform_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_product_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_salers_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: company_management
+#: selection:company.contact.info,contact_type:0
+msgid "Dingding"
+msgstr "钉钉"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_info_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_level_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_platform_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_product_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_salers_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: company_management
+#: selection:company.info,status:0
+msgid "Formal"
+msgstr "正式"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_formal_access_date
+msgid "Formal Access Date"
+msgstr "正式接入时间"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_id
+#: model:ir.model.fields,field_description:company_management.field_company_info_id
+#: model:ir.model.fields,field_description:company_management.field_company_level_id
+#: model:ir.model.fields,field_description:company_management.field_company_platform_id
+#: model:ir.model.fields,field_description:company_management.field_company_product_id
+#: model:ir.model.fields,field_description:company_management.field_company_salers_id
+msgid "ID"
+msgstr "ID"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_info___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_level___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_platform___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_product___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_salers___last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_info_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_level_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_platform_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_product_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_salers_write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_contact_info_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_info_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_level_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_platform_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_product_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_salers_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_level_level_company_info_ids
+#: model:ir.ui.view,arch_db:company_management.view_company_level_form
+msgid "Level"
+msgstr "层级"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_level_name
+msgid "Level Name"
+msgstr "等级"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_platform
+#: model:ir.ui.view,arch_db:company_management.view_company_platform_form
+#: model:ir.ui.view,arch_db:company_management.view_company_product_form
+msgid "Platform"
+msgstr "使用平台"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_platform_name
+msgid "Platform Name"
+msgstr "使用平台名称"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_product
+msgid "Product"
+msgstr "产品"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_product_name
+#: model:ir.model.fields,field_description:company_management.field_company_product_name
+msgid "Product Name"
+msgstr "产品名称"
+
+#. module: company_management
+#: selection:company.contact.info,contact_type:0
+msgid "QQ"
+msgstr "QQ"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_remark
+#: model:ir.model.fields,field_description:company_management.field_company_level_remark
+#: model:ir.model.fields,field_description:company_management.field_company_platform_remark
+#: model:ir.model.fields,field_description:company_management.field_company_product_remark
+#: model:ir.model.fields,field_description:company_management.field_company_salers_remark
+msgid "Remark"
+msgstr "备注"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_saler_id
+msgid "Saler"
+msgstr "销售人员"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_salers_name
+msgid "Saler Name"
+msgstr "销售名字"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_saler
+#: model:ir.ui.view,arch_db:company_management.view_company_salers_form
+msgid "Salers"
+msgstr "销售"
+
+#. module: company_management
+#: model:ir.ui.menu,name:company_management.menu_settings
+msgid "Setting"
+msgstr "配置管理"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_status
+msgid "Status"
+msgstr "状态"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_support_specialist_id
+msgid "Support Specialist"
+msgstr "技术支持专员"
+
+#. module: company_management
+#: selection:company.info,status:0
+msgid "Test"
+msgstr "测试"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_product
+msgid "Use Product"
+msgstr "使用产品信息"
+
+#. module: company_management
+#: selection:company.contact.info,contact_type:0
+msgid "WX"
+msgstr "微信"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_contact_info
+msgid "company.contact.info"
+msgstr "公司客户联系信息"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_info
+msgid "company.info"
+msgstr "客户信息"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_level
+msgid "company.level"
+msgstr "客户等级"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_platform
+msgid "company.platform"
+msgstr "客户使用平台"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_product
+msgid "company.product"
+msgstr "客户应用产品"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_salers
+msgid "company.salers"
+msgstr "公司销售"
+

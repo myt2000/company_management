@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+        <record id="view_company_contact_info_form" model="ir.ui.view">
+            <field name="name">company.contact.info.form</field>
+            <field name="model">company.contact.info</field>
+            <field name="arch" type="xml">
+                <form string="Contact Info">
+                    <group>
+                        <field name="name"/>
+                        <field name="contact_type" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_company_contact_info_tree" model="ir.ui.view">
+            <field name="name">company.contact.info.tree</field>
+            <field name="model">company.contact.info</field>
+            <field name="arch" type="xml">
+                <tree string="Contact Info">
+                        <field name="name"/>
+                        <field name="contact_type" />
+                </tree>
+            </field>
+        </record>
+
+
+      <record model="ir.actions.act_window" id="company_contact_info_action">
+            <field name="name">Company Contact Info</field>
+            <field name="res_model">company.contact.info</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

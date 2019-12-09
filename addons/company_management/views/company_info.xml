@@ -1,0 +1,57 @@
+<odoo>
+  <data>
+     <record id="view_company_info_form" model="ir.ui.view">
+            <field name="name">company.info.form</field>
+            <field name="model">company.info</field>
+            <field name="arch" type="xml">
+                <form string="Company Info">
+                    <group>
+                        <field name="company_name"/>
+                        <field name="company_abbreviation" />
+                        <field name="product_name" />
+                        <field name="status" />
+                        <field name="access_date" />
+                        <field name="formal_access_date" />
+                        <field name="company_level_id" />
+                        <field name="saler_id" />
+                        <field name="platform" widget="many2many_tags"/>
+                        <field name="product" widget="many2many_tags"/>
+                        <field name="support_specialist_id" widget="many2many_tags"/>
+                    </group>
+                    <notebook>
+                        <page string="Contact Info">
+                            <field name="contact_info" mode="tree">
+                                <tree string="Contact Info">
+                                    <field name="name"/>
+                                    <field name="contact_type"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_company_info_tree" model="ir.ui.view">
+            <field name="name">company.info.tree</field>
+            <field name="model">company.info</field>
+            <field name="arch" type="xml">
+                <tree string="Company Info">
+                        <field name="company_name"/>
+                        <field name="company_abbreviation" />
+                        <field name="product_name" />
+                        <field name="status" />
+                        <field name="access_date" />
+                        <field name="support_specialist_id" />
+                </tree>
+            </field>
+        </record>
+
+
+      <record model="ir.actions.act_window" id="company_info_action">
+            <field name="name">Company Info</field>
+            <field name="res_model">company.info</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+  </data>
+</odoo>
