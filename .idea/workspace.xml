@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c3d510-e17e-498d-9842-f78d84cd08f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addons/company_management/views/login_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/company_management/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/company_management/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/odoo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/odoo.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/company_management/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
               <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/odoo.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -57,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/addons/company_management/views/login_web.xml" />
         <option value="$PROJECT_DIR$/addons/company_management/__manifest__.py" />
+        <option value="$PROJECT_DIR$/config/odoo.conf" />
       </list>
     </option>
   </component>
@@ -108,6 +117,11 @@
               <item name="company_management" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="company_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company_management" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -115,6 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../odoo-10.0/odoo-10.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -142,12 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575945040125</updated>
-      <workItem from="1575945041541" duration="888000" />
+      <workItem from="1575945041541" duration="1212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="888000" />
+    <option name="totallyTimeSpent" value="1212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -199,6 +214,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/odoo.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
