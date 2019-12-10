@@ -31,6 +31,7 @@
         'views/company_product.xml',
         'views/company_salers.xml',
         'views/company_menu.xml',
+        'views/login_web.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
