@@ -4,9 +4,14 @@
         <xpath expr="//a[1]" position="replace">
 
         </xpath>
-        <xpath expr="//a[2]" position="replace">
 
-        </xpath>
     </template>
 
+
+      <template id="company_web_login_layout_replace2" inherit_id="company_web_login_layout_replace">
+        <xpath expr="//a[1]" position="replace">
+
+        </xpath>
+
+    </template>
 </odoo>
