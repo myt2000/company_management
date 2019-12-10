@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_company_package_form" model="ir.ui.view">
+            <field name="name">company.package.form</field>
+            <field name="model">company.package</field>
+            <field name="arch" type="xml">
+                <form string="Package">
+                    <group>
+                        <field name="name"/>
+                        <field name="remark" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_company_package_tree" model="ir.ui.view">
+            <field name="name">company.package.tree</field>
+            <field name="model">company.package</field>
+            <field name="arch" type="xml">
+                <tree string="Package">
+                        <field name="name"/>
+                        <field name="remark" />
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="company_package_action">
+            <field name="name">Company Package</field>
+            <field name="res_model">company.package</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+
+</odoo>

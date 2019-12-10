@@ -30,6 +30,8 @@
         'views/company_platform.xml',
         'views/company_product.xml',
         'views/company_salers.xml',
+        'views/company_package.xml',
+        'views/company_extra.xml',
         'views/company_menu.xml',
         'views/login_web.xml',
     ],

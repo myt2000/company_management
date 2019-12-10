@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0-20190816\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 05:35+0000\n"
-"PO-Revision-Date: 2019-12-10 05:35+0000\n"
+"POT-Creation-Date: 2019-12-10 05:25+0000\n"
+"PO-Revision-Date: 2019-12-10 05:25+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -261,11 +261,6 @@ msgid "Level Name"
 msgstr "等级"
 
 #. module: company_management
-#: model:ir.model.fields,field_description:company_management.field_company_info_mail
-msgid "Mail"
-msgstr "邮箱"
-
-#. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_info_package_name_id
 #: model:ir.ui.menu,name:company_management.menu_package
 #: model:ir.ui.view,arch_db:company_management.view_company_package_form
@@ -357,11 +352,6 @@ msgstr "测试"
 #: model:ir.model.fields,field_description:company_management.field_company_info_product
 msgid "Use Product"
 msgstr "使用产品信息"
-
-#. module: company_management
-#: model:ir.model.fields,field_description:company_management.field_company_info_version
-msgid "Version"
-msgstr "版本"
 
 #. module: company_management
 #: selection:company.contact.info,contact_type:0
