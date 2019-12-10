@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="company_web_login_layout_replace" inherit_id="web.login_layout">
-        <xpath expr="//a">
+        <xpath expr="//a" position="replace">
 
         </xpath>
     </template>
