@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0-20190816\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 05:35+0000\n"
-"PO-Revision-Date: 2019-12-10 05:35+0000\n"
+"POT-Creation-Date: 2019-12-10 06:49+0000\n"
+"PO-Revision-Date: 2019-12-10 06:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -58,6 +58,7 @@ msgstr "额外功能"
 #. module: company_management
 #: model:ir.actions.act_window,name:company_management.company_info_action
 #: model:ir.model.fields,field_description:company_management.field_company_salers_salers_company_info_ids
+#: model:ir.model.fields,field_description:company_management.field_company_version_version_company_info_ids
 #: model:ir.ui.view,arch_db:company_management.view_company_info_form
 #: model:ir.ui.view,arch_db:company_management.view_company_info_tree
 msgid "Company Info"
@@ -111,6 +112,12 @@ msgid "Company Salers"
 msgstr "对应销售人员"
 
 #. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_version_action
+#: model:ir.ui.view,arch_db:company_management.view_company_version_tree
+msgid "Company Version"
+msgstr "客户版本"
+
+#. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_info_contact_info
 #: model:ir.ui.view,arch_db:company_management.view_company_contact_info_form
 #: model:ir.ui.view,arch_db:company_management.view_company_contact_info_tree
@@ -142,6 +149,7 @@ msgstr "联系方式"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_create_uid
 #: model:ir.model.fields,field_description:company_management.field_company_product_create_uid
 #: model:ir.model.fields,field_description:company_management.field_company_salers_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_version_create_uid
 msgid "Created by"
 msgstr "创建人"
 
@@ -154,8 +162,14 @@ msgstr "创建人"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_create_date
 #: model:ir.model.fields,field_description:company_management.field_company_product_create_date
 #: model:ir.model.fields,field_description:company_management.field_company_salers_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_version_create_date
 msgid "Created on"
 msgstr "创建时间"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_salers_department
+msgid "Department"
+msgstr "部门"
 
 #. module: company_management
 #: selection:company.contact.info,contact_type:0
@@ -171,6 +185,7 @@ msgstr "钉钉"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_display_name
 #: model:ir.model.fields,field_description:company_management.field_company_product_display_name
 #: model:ir.model.fields,field_description:company_management.field_company_salers_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_version_display_name
 msgid "Display Name"
 msgstr "显示名称"
 
@@ -210,6 +225,7 @@ msgstr "正式接入时间"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_id
 #: model:ir.model.fields,field_description:company_management.field_company_product_id
 #: model:ir.model.fields,field_description:company_management.field_company_salers_id
+#: model:ir.model.fields,field_description:company_management.field_company_version_id
 msgid "ID"
 msgstr "ID"
 
@@ -222,6 +238,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:company_management.field_company_platform___last_update
 #: model:ir.model.fields,field_description:company_management.field_company_product___last_update
 #: model:ir.model.fields,field_description:company_management.field_company_salers___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_version___last_update
 msgid "Last Modified on"
 msgstr "最后修改日"
 
@@ -234,6 +251,7 @@ msgstr "最后修改日"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_write_uid
 #: model:ir.model.fields,field_description:company_management.field_company_product_write_uid
 #: model:ir.model.fields,field_description:company_management.field_company_salers_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_version_write_uid
 msgid "Last Updated by"
 msgstr "最后更新人"
 
@@ -246,6 +264,7 @@ msgstr "最后更新人"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_write_date
 #: model:ir.model.fields,field_description:company_management.field_company_product_write_date
 #: model:ir.model.fields,field_description:company_management.field_company_salers_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_version_write_date
 msgid "Last Updated on"
 msgstr "最后更新时间"
 
@@ -262,6 +281,7 @@ msgstr "等级"
 
 #. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_info_mail
+#: model:ir.model.fields,field_description:company_management.field_company_salers_mail
 msgid "Mail"
 msgstr "邮箱"
 
@@ -314,6 +334,7 @@ msgstr "QQ"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_remark
 #: model:ir.model.fields,field_description:company_management.field_company_product_remark
 #: model:ir.model.fields,field_description:company_management.field_company_salers_remark
+#: model:ir.model.fields,field_description:company_management.field_company_version_remark
 msgid "Remark"
 msgstr "备注"
 
@@ -359,7 +380,9 @@ msgid "Use Product"
 msgstr "使用产品信息"
 
 #. module: company_management
-#: model:ir.model.fields,field_description:company_management.field_company_info_version
+#: model:ir.model.fields,field_description:company_management.field_company_version_name
+#: model:ir.ui.menu,name:company_management.menu_version
+#: model:ir.ui.view,arch_db:company_management.view_company_version_form
 msgid "Version"
 msgstr "版本"
 
@@ -407,4 +430,14 @@ msgstr "客户应用产品"
 #: model:ir.model,name:company_management.model_company_salers
 msgid "company.salers"
 msgstr "公司销售"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_version
+msgid "company.version"
+msgstr "版本"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_version_id
+msgid "version"
+msgstr "版本"
 

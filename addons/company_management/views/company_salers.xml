@@ -8,6 +8,8 @@
                 <form string="Salers">
                     <group>
                         <field name="name"/>
+                        <field name="mail"/>
+                        <field name="department"/>
                         <field name="remark" />
                     </group>
                 </form>
@@ -20,6 +22,8 @@
             <field name="arch" type="xml">
                 <tree string="Company Salers">
                         <field name="name"/>
+                        <field name="mail"/>
+                        <field name="department"/>
                         <field name="remark" />
                 </tree>
             </field>

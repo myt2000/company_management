@@ -15,6 +15,7 @@
         <menuitem id="menu_saler" name="Salers" parent="menu_settings" sequence="60" action="company_salers_action"/>
         <menuitem id="menu_package" name="Package" parent="menu_settings" sequence="70" action="company_package_action"/>
         <menuitem id="menu_extra" name="Extra" parent="menu_settings" sequence="80" action="company_extra_action"/>
+        <menuitem id="menu_version" name="Version" parent="menu_settings" sequence="90" action="company_version_action"/>
 
     </data>
 </odoo>

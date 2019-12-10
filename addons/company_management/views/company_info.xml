@@ -15,7 +15,7 @@
                             <field name="formal_access_date" />
                             <field name="company_level_id" />
                             <field name="mail" />
-                            <field name="version" />
+                            <field name="version_id" />
                             <field name="saler_id" />
                             <field name="platform" widget="many2many_tags"/>
                             <field name="product" widget="many2many_tags"/>
@@ -54,6 +54,7 @@
                         <field name="mail" />
                         <field name="support_specialist_id" />
                         <field name="contact_info" />
+                        <field name="version_id" />
                 </tree>
             </field>
         </record>

@@ -16,7 +16,7 @@ class Company_info(models.Model):
     access_date = fields.Date(string="Access Time", default=fields.Date.context_today)
     formal_access_date = fields.Date(string="Formal Access Date")
     mail = fields.Char(string="Mail")
-    version = fields.Char(string="Version")
+    version_id = fields.Many2one('company.version', string="version")
     certificate_name = fields.Char(string="Certificate Name")
     common_name = fields.Char(string="Common name")
     package_name_id = fields.Many2many('company_package', 'info_company_package_rel', string="Package")
