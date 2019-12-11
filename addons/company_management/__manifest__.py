@@ -25,6 +25,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/company_contact_info.xml',
+        'views/company_third_party.xml',
         'views/company_info.xml',
         'views/company_level.xml',
         'views/company_platform.xml',

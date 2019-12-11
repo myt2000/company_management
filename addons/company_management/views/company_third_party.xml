@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_company_third_party_form" model="ir.ui.view">
+            <field name="name">company.third.party.form</field>
+            <field name="model">company.third.party</field>
+            <field name="arch" type="xml">
+                <form string="Third Party">
+                    <group>
+                        <field name="name"/>
+                        <field name="remark" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_company_third_party_tree" model="ir.ui.view">
+            <field name="name">company.third.party.tree</field>
+            <field name="model">company.third.party</field>
+            <field name="arch" type="xml">
+                <tree string="Third Party">
+                        <field name="name"/>
+                        <field name="remark" />
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="company_third_party_action">
+            <field name="name">Company Version</field>
+            <field name="res_model">company.third.party</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

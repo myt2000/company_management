@@ -7,7 +7,7 @@ class Company_info(models.Model):
     _rec_name = 'company_name'
 
     company_name = fields.Char(string="Company Name", required=True)
-    company_abbreviation = fields.Char(string="Abbreviation", required=True)
+    company_abbreviation = fields.Char(string="Abbreviation")
     product_name = fields.Char(string="Product Name")
     status = fields.Selection([('formal', 'Formal'), ('test', 'Test'),
                                ('abort', 'Abort')],
@@ -19,8 +19,8 @@ class Company_info(models.Model):
     version_id = fields.Many2one('company.version', string="version")
     certificate_name = fields.Char(string="Certificate Name")
     common_name = fields.Char(string="Common name")
-    package_name_id = fields.Many2many('company_package', 'info_company_package_rel', string="Package")
-    extra_function_id = fields.Many2many('company_extra', 'info_company_extra_rel', string="Extra Function")
+    package_name_id = fields.Many2many('company.package', 'info_company_package_info_rel', string="Package")
+    extra_function_id = fields.Many2many('company.extra', 'info_company_extra_info_rel', string="Extra Function")
     company_level_id = fields.Many2one('company.level', string="Company Level")
     saler_id = fields.Many2one('company.salers', string="Saler")
     platform = fields.Many2many('company.platform', 'info_platform_rel', string="Platform", required=True)
@@ -28,3 +28,6 @@ class Company_info(models.Model):
     support_specialist_id = fields.Many2many('res.users', 'info_res_users_rel', string="Support Specialist")
     contact_info = fields.Many2many('company.contact.info', 'info_contact_info_rel', string="Contact Info")
     remark = fields.Text(string="Remark")
+    effective_time = fields.Char(string="Effective Time")
+    demo_address = fields.Char(string="Demo Address")
+    third_party = fields.Many2many('company.third.party', 'info_third_party_info', string="Third Party")

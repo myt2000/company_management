@@ -17,15 +17,19 @@
                             <field name="mail" />
                             <field name="version_id" />
                             <field name="saler_id" />
+                            <field name="demo_address" />
                             <field name="platform" widget="many2many_tags"/>
                             <field name="product" widget="many2many_tags"/>
+                            <field name="third_party" widget="many2many_tags"/>
                             <field name="support_specialist_id" widget="many2many_tags"/>
                         </group>
                         <group string="Certificate Info">
                             <field name="certificate_name"/>
                             <field name="common_name"/>
+                            <field name="effective_time"/>
                             <field name="package_name_id" widget="many2many_tags"/>
                             <field name="extra_function_id" widget="many2many_tags"/>
+                            <field name="remark"/>
                         </group>
                     </group>
                     <notebook>

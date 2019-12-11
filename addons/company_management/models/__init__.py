@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
 from . import company_info
+from . import company_third_party
 from . import company_contact_info
 from . import company_level
 from . import company_platform

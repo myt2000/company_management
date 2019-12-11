@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0-20190816\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 06:49+0000\n"
-"PO-Revision-Date: 2019-12-10 06:49+0000\n"
+"POT-Creation-Date: 2019-12-10 08:42+0000\n"
+"PO-Revision-Date: 2019-12-10 08:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,6 +112,7 @@ msgid "Company Salers"
 msgstr "对应销售人员"
 
 #. module: company_management
+#: model:ir.actions.act_window,name:company_management.company_third_party_action
 #: model:ir.actions.act_window,name:company_management.company_version_action
 #: model:ir.ui.view,arch_db:company_management.view_company_version_tree
 msgid "Company Version"
@@ -149,6 +150,7 @@ msgstr "联系方式"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_create_uid
 #: model:ir.model.fields,field_description:company_management.field_company_product_create_uid
 #: model:ir.model.fields,field_description:company_management.field_company_salers_create_uid
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_create_uid
 #: model:ir.model.fields,field_description:company_management.field_company_version_create_uid
 msgid "Created by"
 msgstr "创建人"
@@ -162,9 +164,15 @@ msgstr "创建人"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_create_date
 #: model:ir.model.fields,field_description:company_management.field_company_product_create_date
 #: model:ir.model.fields,field_description:company_management.field_company_salers_create_date
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_create_date
 #: model:ir.model.fields,field_description:company_management.field_company_version_create_date
 msgid "Created on"
 msgstr "创建时间"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_demo_address
+msgid "Demo Address"
+msgstr "Demo地址链接"
 
 #. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_salers_department
@@ -185,9 +193,15 @@ msgstr "钉钉"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_display_name
 #: model:ir.model.fields,field_description:company_management.field_company_product_display_name
 #: model:ir.model.fields,field_description:company_management.field_company_salers_display_name
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_display_name
 #: model:ir.model.fields,field_description:company_management.field_company_version_display_name
 msgid "Display Name"
 msgstr "显示名称"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_effective_time
+msgid "Effective Time"
+msgstr "证书有效时间"
 
 #. module: company_management
 #: model:ir.ui.menu,name:company_management.menu_extra
@@ -225,6 +239,7 @@ msgstr "正式接入时间"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_id
 #: model:ir.model.fields,field_description:company_management.field_company_product_id
 #: model:ir.model.fields,field_description:company_management.field_company_salers_id
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_id
 #: model:ir.model.fields,field_description:company_management.field_company_version_id
 msgid "ID"
 msgstr "ID"
@@ -238,6 +253,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:company_management.field_company_platform___last_update
 #: model:ir.model.fields,field_description:company_management.field_company_product___last_update
 #: model:ir.model.fields,field_description:company_management.field_company_salers___last_update
+#: model:ir.model.fields,field_description:company_management.field_company_third_party___last_update
 #: model:ir.model.fields,field_description:company_management.field_company_version___last_update
 msgid "Last Modified on"
 msgstr "最后修改日"
@@ -251,6 +267,7 @@ msgstr "最后修改日"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_write_uid
 #: model:ir.model.fields,field_description:company_management.field_company_product_write_uid
 #: model:ir.model.fields,field_description:company_management.field_company_salers_write_uid
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_write_uid
 #: model:ir.model.fields,field_description:company_management.field_company_version_write_uid
 msgid "Last Updated by"
 msgstr "最后更新人"
@@ -264,6 +281,7 @@ msgstr "最后更新人"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_write_date
 #: model:ir.model.fields,field_description:company_management.field_company_product_write_date
 #: model:ir.model.fields,field_description:company_management.field_company_salers_write_date
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_write_date
 #: model:ir.model.fields,field_description:company_management.field_company_version_write_date
 msgid "Last Updated on"
 msgstr "最后更新时间"
@@ -334,6 +352,7 @@ msgstr "QQ"
 #: model:ir.model.fields,field_description:company_management.field_company_platform_remark
 #: model:ir.model.fields,field_description:company_management.field_company_product_remark
 #: model:ir.model.fields,field_description:company_management.field_company_salers_remark
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_remark
 #: model:ir.model.fields,field_description:company_management.field_company_version_remark
 msgid "Remark"
 msgstr "备注"
@@ -373,6 +392,15 @@ msgstr "技术支持专员"
 #: selection:company.info,status:0
 msgid "Test"
 msgstr "测试"
+
+#. module: company_management
+#: model:ir.model.fields,field_description:company_management.field_company_info_third_party
+#: model:ir.model.fields,field_description:company_management.field_company_third_party_name
+#: model:ir.ui.menu,name:company_management.menu_third
+#: model:ir.ui.view,arch_db:company_management.view_company_third_party_form
+#: model:ir.ui.view,arch_db:company_management.view_company_third_party_tree
+msgid "Third Party"
+msgstr "第三方"
 
 #. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_info_product
@@ -430,6 +458,11 @@ msgstr "客户应用产品"
 #: model:ir.model,name:company_management.model_company_salers
 msgid "company.salers"
 msgstr "公司销售"
+
+#. module: company_management
+#: model:ir.model,name:company_management.model_company_third_party
+msgid "company.third.party"
+msgstr "第三方信息"
 
 #. module: company_management
 #: model:ir.model,name:company_management.model_company_version
