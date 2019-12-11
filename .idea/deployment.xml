@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="root@192.168.0.217:22">
     <serverData>
+      <paths name="odoo@192.168.0.236:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@192.168.0.217:22">
         <serverdata>
           <mappings>

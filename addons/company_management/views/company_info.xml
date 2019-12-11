@@ -7,7 +7,7 @@
                 <form string="Company Info">
                     <group>
                         <group string="Company Info">
-                            <field name="company_name"/>
+                            <field name="company_name" required="1"/>
                             <field name="company_abbreviation" />
                             <field name="product_name" />
                             <field name="status" />
@@ -18,10 +18,10 @@
                             <field name="version_id" />
                             <field name="saler_id" />
                             <field name="demo_address" />
-                            <field name="platform" widget="many2many_tags"/>
-                            <field name="product" widget="many2many_tags"/>
+                            <field name="platform" widget="many2many_tags" required="1"/>
+                            <field name="product" widget="many2many_tags" required="1" />
                             <field name="third_party" widget="many2many_tags"/>
-                            <field name="support_specialist_id" widget="many2many_tags"/>
+                            <field name="support_specialist_id" widget="many2many_tags" required="1"/>
                         </group>
                         <group string="Certificate Info">
                             <field name="certificate_name"/>

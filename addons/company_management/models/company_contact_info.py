@@ -7,6 +7,6 @@ class Company_contact_info(models.Model):
 
     name = fields.Char(string="Contact Name")
     contact_type = fields.Selection([('qq', 'QQ'), ('wx', 'WX'),
-                               ('dd', 'Dingding')],
+                               ('dd', 'Dingding'), ('email', 'E-mail'), ('skype', 'Skype')],
                               string="Contact Type",
                               default='wx')

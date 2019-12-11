@@ -6,7 +6,7 @@ class Company_info(models.Model):
     _name = 'company.info'
     _rec_name = 'company_name'
 
-    company_name = fields.Char(string="Company Name", required=True)
+    company_name = fields.Char(string="Company Name")
     company_abbreviation = fields.Char(string="Abbreviation")
     product_name = fields.Char(string="Product Name")
     status = fields.Selection([('formal', 'Formal'), ('test', 'Test'),
@@ -23,7 +23,7 @@ class Company_info(models.Model):
     extra_function_id = fields.Many2many('company.extra', 'info_company_extra_info_rel', string="Extra Function")
     company_level_id = fields.Many2one('company.level', string="Company Level")
     saler_id = fields.Many2one('company.salers', string="Saler")
-    platform = fields.Many2many('company.platform', 'info_platform_rel', string="Platform", required=True)
+    platform = fields.Many2many('company.platform', 'info_platform_rel', string="Platform")
     product = fields.Many2many('company.product', 'info_product_rel', string="Use Product")
     support_specialist_id = fields.Many2many('res.users', 'info_res_users_rel', string="Support Specialist")
     contact_info = fields.Many2many('company.contact.info', 'info_contact_info_rel', string="Contact Info")
