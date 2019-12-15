@@ -50,7 +50,9 @@
             <field name="name">company.info.tree</field>
             <field name="model">company.info</field>
             <field name="arch" type="xml">
+
                 <tree string="Company Info">
+
                         <field name="company_name"/>
                         <field name="company_abbreviation" />
                         <field name="product_name" />
@@ -60,6 +62,7 @@
                         <field name="contact_info" />
                         <field name="version_id" />
                 </tree>
+
             </field>
         </record>
 

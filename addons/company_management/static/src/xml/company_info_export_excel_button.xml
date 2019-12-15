@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <templates id="company_info_export_excel_button" xml:space="preserve">
+        <t t-extend="ListView.buttons">
+            <t t-jquery="button.o_list_button_add" t-operation="append">
+                <t t-if="widget.model=='company.info'">
+                    <button class="btn btn-primary btn-sm company_info_export_excel_button" type="button" >导出excel</button>
+                </t>
+            </t>
+        </t>
+    </templates>
+
+
