@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="company_excel_export_wizard_form_view" model="ir.ui.view">
+        <field name="name">company.excel.export.wizard.form</field>
+        <field name="model">company.excel.export.wizard</field>
+        <field name="priority">1</field>
+        <field name="arch" type="xml">
+            <form string="Company Data Export">
+                <group>
+                    <field name="access_date"/>
+                    <field name="formal_access_date" />
+                    <field name="support_specialist_id" widget="many2many_tags"/>
+                </group>
+                <footer>
+                    <button name="export_excel_data" string="Data Export" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="action_company_excel_export_wizard" model="ir.actions.act_window">
+        <field name="name">company.excel.export.wizard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">company.excel.export.wizard</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="company_excel_export_wizard_form_view"/>
+    </record>
+
+</odoo>

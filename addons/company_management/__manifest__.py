@@ -24,6 +24,8 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'views/assets.xml',
+        'wizards/company_excel_export_wizard_view.xml',
         'views/company_contact_info.xml',
         'views/company_third_party.xml',
         'views/company_info.xml',
@@ -41,4 +43,9 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'qweb': [
+        'static/src/xml/company_info_export_excel_button.xml',
+    ],
+    'application': True,
+    'auto_install': False,
 }
