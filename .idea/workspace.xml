@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c3d510-e17e-498d-9842-f78d84cd08f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/company_management/models/company_contact_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/company_management/models/company_contact_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/company_management/models/company_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/company_management/models/company_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/company_management/views/company_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/company_management/views/company_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po" beforeDir="false" afterPath="$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +27,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/company_management/views/company_info.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="-708">
               <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -103,16 +109,16 @@
         <option value="$PROJECT_DIR$/addons/company_management/models/__init__.py" />
         <option value="$PROJECT_DIR$/addons/company_management/views/company_third_party.xml" />
         <option value="$PROJECT_DIR$/addons/company_management/views/company_menu.xml" />
-        <option value="$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po" />
         <option value="$PROJECT_DIR$/addons/company_management/__manifest__.py" />
         <option value="$PROJECT_DIR$/addons/company_management/security/ir.model.access.csv" />
         <option value="$PROJECT_DIR$/addons/company_management/models/company_contact_info.py" />
         <option value="$PROJECT_DIR$/addons/company_management/models/company_info.py" />
         <option value="$PROJECT_DIR$/addons/company_management/views/company_info.xml" />
+        <option value="$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="189" />
     <option name="y" value="479" />
     <option name="width" value="1552" />
@@ -221,18 +227,17 @@
       <updated>1575945040125</updated>
       <workItem from="1575945041541" duration="10246000" />
       <workItem from="1575957586962" duration="13471000" />
-      <workItem from="1576050249055" duration="3385000" />
+      <workItem from="1576050249055" duration="5220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27102000" />
+    <option name="totallyTimeSpent" value="28937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +249,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -391,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8800">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/company_management/views/company_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -424,8 +422,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/company_management/views/company_info.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="-708">
           <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/company_management/i18n/zh_CN.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
         </state>
       </provider>
     </entry>

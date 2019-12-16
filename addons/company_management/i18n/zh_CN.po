@@ -43,7 +43,7 @@ msgstr "证书名称"
 #. module: company_management
 #: model:ir.model.fields,field_description:company_management.field_company_info_common_name
 msgid "Common name"
-msgstr "通用名称"
+msgstr "Common Name"
 
 #. module: company_management
 #: model:ir.actions.act_window,name:company_management.company_contact_info_action
