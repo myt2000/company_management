@@ -278,10 +278,10 @@ class Company_excel_export(models.TransientModel):
         if len(info.contact_info):
             contact_info_list = []
             for single in info.contact_info:
-                if isinstance(single.name):
+                if isinstance(single.name, str):
                     contact_info_list.append(single.name)
                 else:
-                    contact_info_list.append(None)
+                    contact_info_list.append('')
             return ','.join(contact_info_list)
         return
 

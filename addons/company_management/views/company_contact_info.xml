@@ -6,7 +6,7 @@
             <field name="arch" type="xml">
                 <form string="Contact Info">
                     <group>
-                        <field name="name"/>
+                        <field name="name" required="1"/>
                         <field name="contact_type" />
                     </group>
                 </form>
