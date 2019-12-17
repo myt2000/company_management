@@ -236,7 +236,7 @@ class Company_excel_export(models.TransientModel):
         if len(info.extra_function_id):
             extra_list = []
             for extra in info.extra_function_id:
-                extra_list.append(extra)
+                extra_list.append(extra.name)
             return ','.join(extra_list)
         return
 
