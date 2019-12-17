@@ -8,10 +8,11 @@
             <form string="Company Data Export">
                 <group>
                     <field name="access_date"/>
-                    <field name="formal_access_date" />
+<!--                    <field name="formal_access_date" />-->
                     <field name="support_specialist_id" widget="many2many_tags"/>
                 </group>
                 <footer>
+                    <button name="export_all_excel_data" string="All Data Export" type="object" class="btn-primary"/>
                     <button name="export_excel_data" string="Data Export" type="object" class="btn-primary"/>
                     <button string="Cancel" class="btn-default" special="cancel"/>
                 </footer>
