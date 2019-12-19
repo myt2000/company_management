@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/company_management/wizards/company_excel_export_wizard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="171" column="157" selection-start-line="171" selection-start-column="157" selection-end-line="171" selection-end-column="157" />
+            <state relative-caret-position="255">
+              <caret line="280" column="44" lean-forward="true" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
               <folding>
                 <element signature="e#25#36#0" expanded="true" />
               </folding>
@@ -255,12 +255,12 @@
       <workItem from="1575957586962" duration="13471000" />
       <workItem from="1576050249055" duration="5220000" />
       <workItem from="1576479210483" duration="2298000" />
-      <workItem from="1576487013967" duration="2714000" />
+      <workItem from="1576487013967" duration="3519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33949000" />
+    <option name="totallyTimeSpent" value="34754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/company_management/wizards/company_excel_export_wizard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="171" column="157" selection-start-line="171" selection-start-column="157" selection-end-line="171" selection-end-column="157" />
+        <state relative-caret-position="255">
+          <caret line="280" column="44" lean-forward="true" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
           <folding>
             <element signature="e#25#36#0" expanded="true" />
           </folding>
