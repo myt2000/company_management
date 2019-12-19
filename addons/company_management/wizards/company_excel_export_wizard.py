@@ -131,7 +131,8 @@ class Company_excel_export(models.TransientModel):
                 '使用平台', '使用产品信息', '第三方', '技术支持专员', '证书名称', 'Common Name', '证书有效时间', '套餐', '额外功能', '备注', '联系信息',]
 
     def data_collation(self, access_date,  support_specialist, title):
-        access_info = self.env['company.info'].search((['&', ('access_date', '>=', access_date), ('support_specialist_id.id', 'in', support_specialist),]), order='status')
+        access_info = self.env['company.info'].search((['&', ('support_specialist_id.id', 'in', support_specialist), '|',
+                                                        ('formal_access_date', '>=', access_date), ('access_date', '>=', access_date), ]), order='status')
         logging.info(access_date)
         # formal_info = self.env['company.info'].search(([()]))
         export_data = [title]
@@ -166,9 +167,9 @@ class Company_excel_export(models.TransientModel):
 
 
     def data_statistics(self, access_date, support_specialist):
-        formal_num = self.env['company.info'].search_count((['&', '&', ('access_date', '>=', access_date), ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'formal')]))
-        test_num = self.env['company.info'].search_count((['&', '&', ('access_date', '>=', access_date), ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'test')]))
-        abort_num = self.env['company.info'].search_count((['&', '&', ('access_date', '>=', access_date), ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'abort')]))
+        formal_num = self.env['company.info'].search_count((['&', '&', ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'formal'), '|', ('formal_access_date', '>=', access_date), ('access_date', '>=', access_date), ]))
+        test_num = self.env['company.info'].search_count((['&', '&', ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'test'), '|', ('formal_access_date', '>=', access_date), ('access_date', '>=', access_date),]))
+        abort_num = self.env['company.info'].search_count((['&', '&', ('support_specialist_id.id', 'in', support_specialist), ('status', '=', 'abort'), '|', ('formal_access_date', '>=', access_date), ('access_date', '>=', access_date),]))
         status_list = ['正式客户：', formal_num, '测试客户：', test_num, '停用客户', abort_num]
         return status_list
 
