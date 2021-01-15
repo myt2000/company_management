@@ -102,7 +102,7 @@ class Company_excel_export(models.TransientModel):
                 worksheet.write(i, j, data[i][j])
         buffer = BytesIO()
         workbook.save(buffer)
-        return base64.encodestring(buffer.getvalue())
+        return base64.b64decode(buffer.getvalue())
 
 
 
