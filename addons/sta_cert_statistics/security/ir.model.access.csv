@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_sta_cert_statistics_sta_cert_statistics,sta_cert_statistics.sta_cert_statistics,model_sta_cert_statistics_sta_cert_statistics,,1,0,0,0
+access_sta_cert_statistics_certificate_info,model_sta_cert_statistics_certificate_info,,1,1,1,1

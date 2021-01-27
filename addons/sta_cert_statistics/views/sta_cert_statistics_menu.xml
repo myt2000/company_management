@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_sta_certificate_info" name="Sta Certificate Statistics"/>
+        <menuitem id="menu_certificate_statistics" name="Certificate Statistics" parent="menu_sta_certificate_info"
+                  sequence="0"
+                  action="certificate_info_action"/>
+    </data>
+</odoo>

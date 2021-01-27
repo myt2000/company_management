@@ -1,0 +1,50 @@
+<odoo>
+  <data>
+     <record id="view_certificate_info_form" model="ir.ui.view">
+            <field name="name">certificate.info.form</field>
+            <field name="model">certificate.info</field>
+            <field name="arch" type="xml">
+                <form string="Company Info">
+                    <group>
+                        <group string="Certificate Info">
+                            <field name="company_name" required="1"/>
+                            <field name="date" required="1"/>
+                            <field name="function" required="1"/>
+                            <field name="platform" required="1" widget="many2many_tags"/>
+                            <field name="status" required="1"/>
+                            <field name="days" required="1"/>
+                            <field name="support_specialist_id" widget="many2many_tags" required="1"/>
+                            <field name="remark"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_certificate_info_tree" model="ir.ui.view">
+            <field name="name">certificate.info.tree</field>
+            <field name="model">certificate.info</field>
+            <field name="arch" type="xml">
+
+                <tree string="Company Info">
+                        <field name="date"/>
+                        <field name="company_name"/>
+                        <field name="function"/>
+                        <field name="platform"/>
+                        <field name="status" />
+                        <field name="days" />
+                        <field name="support_specialist_id"/>
+                        <field name="remark"/>
+                </tree>
+
+            </field>
+        </record>
+
+
+      <record model="ir.actions.act_window" id="certificate_info_action">
+            <field name="name">Certificate Info</field>
+            <field name="res_model">certificate.info</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+  </data>
+</odoo>
